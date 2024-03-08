@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #github {
+      color: blue;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+</head>
+<body>
+  <a href="https://www.naver.com">naver</a>
+  <a href="https://www.google.com" target="_blank">google</a>
+
+  
+  <d id="github">github</d>
+
+  <!-- 다른파일 링크로 불러오기 가능 -->
+  <a href="../1. elements/1. 블록요소.html">
+    블록요소 공부하기
+  </a>
+
+  <a href="tel:+821099684205">문의전화</a>
+  <a href="email:sji4205@naver.com">메일</a>
+
+  <div id="top">
+    <h1>안녕하세요</h1>
+    <p style="height: 2000px;">
+      방가방가방가방가방가방가방가방가
+      방가방가방가방가방가방가방가방가
+      방가방가방가방가방가방가방가방가
+      방가방가방가방가방가방가방가방가
+    </p>
+  </div>
+
+  <!-- 맨위로 이동 같은 거임 -->
+  <a href="#top">안녕하세요로 이동</a>
+
+
+  <script>
+    github.onclick = e => {
+      window.location.href='https://www.github.com';
+    };
+  </script>
+</body>
+</html>
