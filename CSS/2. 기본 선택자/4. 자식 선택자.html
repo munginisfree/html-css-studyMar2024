@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    /*
+    자식 후손 형제 선택자
+      - 가장 마지막 선택자가 타겟이고
+        앞에는 전부 조건이다. 
+     */
+
+     /* div tag의 직속 자식이어야만 가능 따라서 span 오렌지에 적용됨 */
+     div>.orange{
+      background: orange;
+     }
+
+     body > div > ul > #apple{
+      color: red;
+     }
+
+     #circle > h.title > .left.low > #banana{
+      color: burlywood;
+     }
+    
+  </style>
+</head>
+<body>
+
+  <h1 class="yellow low primary" id="change">안녕하세요</h1>
+
+  <div>
+    <ul>
+      <li class="green" id="apple">사과</li>
+      <li>포도</li>
+      <li class="orange">오렌지</li>
+    </ul>
+
+    <div class="green">당근</div>
+    <p class="big">토마토</p>
+    <span class="orange">오렌지</span>
+  </div>
+</body>
+</html>
