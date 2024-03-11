@@ -1,0 +1,60 @@
+<html>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>CSS Selector Challenge</title>
+
+    <style>
+      #main-content span{
+        color: red;
+      }
+      article.post[data-status = "popular"] p{
+        color: violet;
+      }
+      nav ul li:first-child{
+        color: aqua;
+      }
+      a[href ^= "#"]{
+        color: green;
+      }
+      div#main-content article:nth-child(n+2){
+        background: bisque;;
+      }
+    </style>
+</head>
+<body>
+    <div id="main-content">
+        <article class="post" data-status="popular">
+            <h2>Most Popular Post</h2>
+            <p>Content of the most popular post...</p>
+            <footer>
+                <span class="date">2024-03-10</span>
+                <span class="author">Author 1</span>
+            </footer>
+        </article>
+        <article class="post" data-status="recent">
+            <h2>Recent Post</h2>
+            <p>Content of the recent post...</p>
+            <footer>
+                <span class="date">2024-03-11</span>
+                <span class="author">Author 2</span>
+            </footer>
+        </article>
+        <aside>
+            <div class="advertisement">
+                <p>Advertisement goes here...</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+        </aside>
+    </div>
+</body>
+</html>
+
+
