@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      box-sizing: border-box;
+    }
+    body{
+      margin: 0;
+    }
+    .container{
+      width: 400px;
+      height: 300px;
+      border: 4px solid red;
+      margin-left: 20px;
+      margin-top: 100px;
+      margin-bottom: 50px;
+      margin-right: 60px;
+    }
+    .box{
+      width: 25%;
+      height: 100px;
+      border: 4px solid grey;
+      background: black;
+      margin-left: 20px;
+    }
+    .box:first-child{
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+    .box:last-child{
+      margin: 5px;
+    }
+
+    section{
+      border: 4px solid greenyellow;
+    }
+    section h1{
+      width: 50%;
+      border: 4px solid violet;
+      text-align: center;
+      /* 자동으로 여유 margin을 배분함 
+      언제나 x축 중앙 유지 가능 */
+      margin: 20px auto;
+    }
+
+    section h2{
+     /* auto 쓰려면 가로세로 길이를 제한해줘야 
+     사용 가능 
+     */
+     width: fit-content;
+     margin: 10px auto;
+    }
+  </style>
+</head>
+<body>
+
+  <section>
+    <h1>안녕하세요</h1>
+    <h2>메롱메렁</h2>
+  </section>
+  <div class="container">
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
+</body>
+</html>

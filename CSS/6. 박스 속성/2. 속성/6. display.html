@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #hello{
+      background: red;
+      display: block;
+      width: 300px;
+      height: 200px;
+      margin-top: 50px;
+      padding: 50px;
+    }
+    .click{
+      width: 150px;
+      height: 100px;
+      background: green;
+    }
+
+    /* 클릭 영역 더 크게 만들어줌 */
+    .click a{
+      border: 4px solid #000;
+      display: block;
+      width: 100%;
+      height: 100px;
+    }
+
+    .box{
+      margin-bottom:  50px;
+    }
+
+    .box input{
+      height: 40px;
+      display: inline-block;
+    }
+
+    .box input:nth-child(3){
+      /* display: none; */
+
+      /* 투명도 조절(애니메이션 주면서 없애고 싶으면 얘 써야되지만 단순히 0으로 써서
+      없애는 거는 안됨) */
+      /* opacity: 0.9; */
+
+      /* 자리 유지하면서 없애는거임  */
+      visibility: hidden;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box">
+    <input type="text" value = "1">
+    <input type="text" value = "2">
+    <input type="text" value = "3">
+    <input type="text" value = "4">
+    <input type="text" value = "5">
+  </div>
+  
+  <span id="hello">안뇽안뇽</span>
+  <div class="click">
+    <a href="">click me!!</a>
+  </div>
+
+</body>
+</html>
