@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https: //cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" rel=" stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    .clearfix::after{
+      content: '';
+      display: block;
+      clear: both
+    } 
+
+    section {
+      /* 전체적인틀은 고정적인 픽셀값으로 설정하지 말기 */
+      width: 80%;
+      /* height: 370px; */
+      border: 3px solid grey;
+  
+    }
+
+    #none{
+      border: 0px solid #000;
+    }
+
+    h1 {
+      font-family: cursive;
+      font-size: 35px;
+      background: lightgrey;
+      margin: 0;
+      padding: 15px;
+      text-align: center;
+      word-spacing: 10px;
+    }
+
+    section h2 {
+      font-size: 15px;
+      text-align: center;
+      background: black;
+      color: white;
+      margin: 0;
+      padding: 10px;
+      font-weight: normal;
+    }
+
+    h2 span {
+      color: yellow;
+    }
+
+    section section {
+      width: 100%;
+      background: darkgrey;
+    }
+
+    .flowers {
+      width: 23%;
+      height: 350px;
+      margin: 15px 1%;
+      float: left;
+      border: 2px solid white;
+    }
+
+    #tulips {
+      background: red;
+    }
+
+    #purple {
+      background: rgb(211, 5, 211);
+    }
+
+    #yellow {
+      background: orange;
+    }
+
+    #sunflower {
+      background: yellow;
+    }
+
+    img{
+      width: 90%;
+      height: 45%;
+      margin: 9px;
+      border: 1px solid white;
+    
+    }
+    p{
+      margin: 5px 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <section>
+    <h1>나의 아름다운 정원</h1>
+    <h2>사람들은 아마 자신에게
+      <span>자신감을 복돋워 주는</span>
+      표정 있는 꽃들을 선호할 것이다.
+    </h2>
+    <section id="none" class="clearfix">
+      <div class="flowers" id="tulips">
+        <img src="../../img/tulip.jpg" alt="">
+        <p>
+          너무 화려하지 않으며 고귀한 느낌을 가지고 있다.
+          붉은 색이 단연 으뜸이며 한 송이만 있어도 빼어나다.
+        </p>
+      </div>
+      <div class="flowers" id="purple">
+        <img src="../../img/jebi.jpg" alt="">
+        <p>
+          드물게 푸른색을 띠고 있으며 작지만 시원해 보이는
+          어린 꽃이라고 할 수 있다. 여럿이 함께 있을 때 더욱 아름답다.
+        </p>
+      </div>
+      <div class="flowers" id="yellow">
+        <img src="../../img/hobak.jpg" alt="">
+        <p>
+        색도 모양도 화려하며 이름과 걸맞지 않게 아름다운 꽃으로
+        매우 완숙한 이미지를 풍기는 꽃이다.
+        </p>
+      </div>
+      <div class="flowers" id="sunflower">
+        <img src="../../img/sunflower.jpg" alt="">
+        <p>
+        태양만 바라보는 일편단심의 꽃으로 얼굴이 큰 편에
+        속하며 송이가 적어야 제격이다.
+      </p>
+      </div>
+    </section>
+  </section>
+
+</body>
+
+</html>
