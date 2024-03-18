@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- <link rel="stylesheet" href=""> -->
+  <style>
+    .container{
+      margin: 100px;
+
+    }
+    .box{
+      width: 100px;
+      height: 100px;
+      background: orange;
+      border: 4px dashed red;
+
+      /* 텍스트 중앙정렬 */
+      text-align: center;
+
+      /* 텍스트 y축 중앙으로 보내는 편법 */
+      /* line-height: 100px; */
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .box:nth-child(2){
+      /* 박스를 내가 원하는 곳으로 옮기고 싶음 */
+      /* 앱솔루트를 걸면 그 자리 뺏김  */
+      
+      position: absolute;
+      bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  
+<div class="container">
+  <div class="box">1</div>
+  <div class="box">2</div>
+  <div class="box">3</div>
+</div>
+
+</body>
+</html>

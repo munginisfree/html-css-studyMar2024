@@ -1,0 +1,82 @@
+
+@import url('../../common.css');
+
+#wrapper{
+  /* width: 100%; */
+  height: 100%;
+  background: grey;
+  padding: 0 100px 100px 50px;
+}
+
+header{
+  z-index: 9999;
+  
+}
+header h1{
+  background: darkblue;
+  padding: 20px;
+  color: yellowgreen;
+  font-weight: 800;
+  font-size: 20px;
+  text-align: center;
+}
+header h1 strong{
+  font-size: 70px;
+  font-weight: 900;
+  color: white;
+}
+header h1 span{
+  font-size: 35px;
+}
+header h1 em{
+  font-size: 50px;
+  font-weight: 900;
+  color: lightgrey;
+}
+
+/* 헤더 끝~~~ */
+
+.container .menu{
+  background-color: lightgrey;
+  float: left;
+  width: 20%;
+  height: 60%;
+  padding: 20px 30px 62% 10px;
+}
+
+.container .menu li{
+  line-height: 2;
+}
+
+.container .content{
+  width: 80%;
+  background-color: #fff;
+  padding-bottom: 15px;
+  float: left;
+}
+
+.container .content h2{
+  background-color: darkred;
+  color: yellow;
+  font-size: 22px;
+  font-family: cursive;
+  text-indent: 15px;
+  padding: 10px;
+}
+
+.container .content p{
+  line-height: 1.3;
+  text-align: center;
+  margin: 3%;
+}
+footer address{
+  position: relative;
+  /* border: 1px solid #000; */
+  background-color: #bbb9b9;
+  z-index: 5;
+  bottom: 17px;
+  padding: 10px;
+  text-align: left;
+  
+}
+

@@ -1,0 +1,37 @@
+@import url(../../common.css);
+
+body{
+  background: grey;
+  width: 100%;
+}
+
+body #wrapper{
+  width: 80%;
+  background-color: lightgray;
+  margin: auto;
+}
+
+body #wrapper header{
+  background-color: darkblue;
+  padding: 5%;
+  font-size: 1.3rem;
+  text-align: center;
+  color: rgb(185, 185, 83); 
+  font-weight: 900;
+  word-spacing: .5rem;
+}
+
+body #wrapper header h1 strong{
+  font-size: 4rem;
+  letter-spacing: -8px;
+  color: white;
+}
+
+body #wrapper header h1 span{
+  font-size: 2.2rem; 
+}
+
+body #wrapper header h1 em{
+  font-size: 3rem;
+  color: rgb(177, 175, 175);
+}

@@ -1,0 +1,135 @@
+@import url(../../common.css);
+body{
+  background: grey;
+  font-family: 'NGothic', sans-serif;
+}
+#wrapper{
+  width: 80%;
+  background: rgb(250, 247, 247);
+  margin: auto;
+  min-width: 461px;
+  /* font-family: 'NGothic', sans-serif; */
+}
+
+header h1{
+  width: 100%;
+  background-color: orange;
+  margin: auto;
+  font-weight: 900;
+  font-size: 3.5em;
+  color: white;
+  text-align: center;
+  line-height: 1.3;
+}
+header h1 span{
+  font-size: 0.19em;
+  display: block;
+  padding-bottom: 1%;
+}
+header h2.stit{
+  background: rgb(168, 166, 166);
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  font-size: 0.1em;
+  line-height: 1.3;
+}
+
+/* 헤더 끝 */
+
+#wrapper .container .side-menu{
+  background: white;
+  float: left;
+  width: 20%;
+  line-height: 1.7;
+  text-indent: 7%;
+}
+
+#wrapper .container .main-content{
+  background: lightgrey;
+  width: 60%;
+  float: left;
+}
+
+#wrapper .container .banner{
+  background: white;
+  float: left;
+  width: 20%;
+}
+
+footer address{
+  background: darkblue;
+  color: white;
+  font-size: 0.57rem;
+  text-align: center;
+  padding: 0.7%;
+}
+
+#wrapper .container .side-menu h3{
+  background: darkred;
+  color: white;
+  font-weight: 600;
+}
+
+#wrapper .container .main-content .art-piece{
+  margin: 5% 2%;
+  font-weight: 550;
+}
+
+
+#wrapper .container .main-content .art-piece h4{
+  background: darkblue;
+  color: white;
+  padding: 1.3%;
+}
+#wrapper .container .main-content .art-piece:nth-child(n+1){
+  color: navy;
+}
+
+#wrapper .container .main-content .art-piece .artist{
+  line-height: 3;
+}
+#wrapper .container .main-content .art-piece .detail{
+  font-size: 0.5rem;
+}
+
+/* main done */
+
+#wrapper .container .banner{
+  line-height: 1.5;
+  padding-left: 0.5%;
+}
+
+#wrapper .container .banner .all{
+  color: gray;
+  text-decoration-line: underline;
+
+}
+#wrapper .container .banner .love{
+  display: block;
+  color: orange;
+  text-decoration-line: underline;
+}
+#wrapper .container .banner strong{
+  font-weight: bold;
+}
+
+#wrapper .container .banner .link{
+  font-weight: bold;
+  font-size: 0.7rem;
+  margin-top: 7%;
+}
+#wrapper .container .banner .link li{
+  margin-bottom: 3%;
+}
+#wrapper .container .banner .link a{
+  text-decoration-line: underline;
+}
+
+
+#wrapper .container .banner .link span{
+  display: block;
+  font-weight: 400;
+}
+
+
